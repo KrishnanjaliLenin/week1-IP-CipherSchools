@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image mapping in HTML</title>
+</head>
+<body>
+   
+
+    <!--<img src="C:\Users\KRISHNANJALI LENIN\Downloads\Telegram Desktop\SHIN CHAN.jpg" alt="Shin chan"
+    srcset="C:\Users\KRISHNANJALI LENIN\Downloads\Telegram Desktop\spiderman.jpg 480w,
+            C:\Users\KRISHNANJALI LENIN\Downloads\Telegram Desktop\spiderman.jpg 800w,
+            C:\Users\KRISHNANJALI LENIN\Downloads\Telegram Desktop\spiderman.jpg 1200w,"
+    sizes="(max.width:480px)240px
+           (max.width: 960px)480px
+           (max.width: 1440px)960px"-->
+    
+    >
+    <picture>
+        <source media="(max-width:600px )" srcset="https://www.w3schools.com/html/pic_trulli.jpg">
+        <source media="(max-width:900px )" srcset="https://www.w3schools.com/html/img_car.jpg">
+        <img src="https://www.w3schools.com/html/img_food.jpg"  >
+    </picture>
+</body>
+</html>
+    
+     
+    <!--Image mapping-->
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="workspace" usemap="#workspace">
+    <map name="workspace">
+        <area shape="rect" coords="34,44,270,350" href="computer.tml" alt="computer">
+        <area shape="rect" coords="290,172,333,250" href="https://images.app.goo.gl/pD7dz5CxCXJz3Syn7" alt="Phone">
+        <area shape="circle" coords="337,300,44" href="https://images.app.goo.gl/8BGqLQZ6KSJ8wFNGA" alt="cup">
+    </map>
+
+
+</body>
+</html>
+    
+
